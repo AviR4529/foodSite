@@ -1,0 +1,165 @@
+body{
+    margin: 0 auto;
+    font-family: cursive;  
+}
+
+body, html{
+    overflow: hidden;
+}
+
+#searchArea{
+   
+    background-color: rgba(63, 59, 59, 0.829); 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+  
+}
+
+#coloum{
+    margin-right: 500px;
+    flex-direction: column;
+}
+
+#titlePage{
+    font-size: 33px;
+    color: rgb(255, 242, 0);
+    display: inline-block;
+    margin-right: auto;
+}
+
+#searchButton{
+    
+    margin-top:5.5px;
+    width: 100px;
+    height: 37px;
+    border-radius: 13%;
+    font-size: 15px;
+    color: #ffff00;
+    background-color: #b52f2fd8;
+    margin-bottom: 35px;;
+}
+
+#serachText{
+    font-size: 22px;
+    color: aliceblue;
+    margin-bottom: 1px;
+}
+
+#searchResults{
+  display: flex;
+}
+
+#theInput{
+    margin-top: 4px;
+}
+
+#answer{
+    background-color:  #f2e9e965;
+    height:75vh;
+    overflow-y: auto;  
+    width: 30%;
+}
+
+#newDivID{
+    display: flex;
+    border: 1px solid rgb(13, 114, 0);
+  
+}
+
+#textR{
+    cursor: pointer; 
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+   color: rgb(4, 4, 34);  
+}
+
+#images{
+    padding: 7.5px 5px;
+    border-radius: 50%;
+}
+
+#elementsDiv{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    height:75vh;
+    overflow-y: auto;  
+  
+}
+
+#bigImage{
+    height: 170px;
+    width: 260px;
+}
+
+#shoping_list_div{
+    background-color:  #c3aaaa1a;
+    width: 30%;
+    height:75vh;
+    text-align: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+#IngredientsID{
+    font-size: small;
+    
+}
+
+#preparationTimeID{
+
+    font-weight: bold;
+}
+
+#divOfIngredientsID{
+    border: 1.5px solid darkorange;
+    
+}
+
+#divOfServingsID{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+#plusServingsButtonID{
+    margin-left: 4px;
+
+}
+
+#minusServingsButtonID{
+    
+    margin-right: 4px;
+
+}
+
+#quantity{
+    padding: 5.5px 15px;
+    height: 10px;
+    width: 40px;
+    
+}
+
+#textList{
+    white-space: nowrap;
+    margin: 1px 10px;
+
+}
+
+#shoping_list_Ingredients_div_id{
+    display: flex;
+    padding-top: 3px;
+    margin-left: 2px;
+
+}
+
+#InstructionsButtonID{
+    text-align: center;
+    justify-content: center;  
+}
